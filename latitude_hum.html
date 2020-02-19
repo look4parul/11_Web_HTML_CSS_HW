@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web-Visualization Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">  
+</head>
+
+<body>
+  <nav class="navbar navbar-default p-0">
+
+    <div class="container-fluid">
+      <a class="navbar-brand p-2 ml-5 " href="index.html">Lattitude</a>
+    <ul class="nav nav-bar">
+    
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="latitude_temps.html">Max Temperature</a>
+        <a class="dropdown-item" href="latitude_hum.html">Humidity</a>
+        <a class="dropdown-item" href="latitude_cloud.html">Cloudiness</a>
+        <a class="dropdown-item" href="latitude_wind.html">Wind Speed</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="comparison.html">Comparison</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="data.html">Data</a>
+    </li>
+  </ul>
+    </div>
+  </nav>
+  <!-- Creates the Overall Grid -->
+    <div class="container">
+
+      <div class="row">
+        <div class="col-8 sect mt-5 mr-4 ml-n5"> <br>
+          <h3>Humidity</h3> <hr>
+             <!-- <div class="float-left"> -->
+          <div>
+            <img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Cloudiness">
+            
+            <p>Humidity is the general term which describes the invisible amount of water vapour present in the air. It is a highly variable climatic factor which forms only a small proportion (varying from zero to four per cent and averaging around 2% in the atmosphere.) Humidity is measured by an instrument called hygrometer.</p>
+            <p>Water vapour in the atmosphere comes through evaporation from the oceans, lakes, rivers, ice-­fields and glaciers, through transpiration from plants and respiration from animals.</p>
+            <p>On 01/05/2017, humidity was consistently higher in the tropics,
+              and lower north of the Tropic of Cancer, and south of the Tropic of Capricorn.
+              There appears to be some correlation between coastal locations and humidity;
+            humidity appears to be higher in coastal locations, and lower inland. </p><br><br><br><br>
+          </div>
+        </div>
+      </div>  
+      <div class="col-4 sect mt-5 mr-4"> <br>
+        <h3>Visualizations</h3> <hr/>
+        <div class="row">
+          <div class="col">
+            <a href="latitude_temps.html"><img src="Resources/assets/images/Fig1.png" alt="Max Temperature" width="100%" height="100%"></a><br><br><br>
+          </div>
+          <div class="col">
+            <a href="latitude_wind.html"><img src="Resources/assets/images/Fig2.png" alt="Humidity" width="100%" height="100%"></a><br><br><br>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <a href="latitude_hum.html"><img src="Resources/assets/images/Fig3.png" alt="Cloudiness" width="100%" height="100%"></a><br><br><br>
+          </div>
+          <div class="col">
+            <a href="latitude_cloud.html"><img src="Resources/assets/images/Fig4.png" alt="Wind Speed" width="100%" height="100%"></a><br>
+          </div>
+        </div>
+      </div>
+    </div> <!-- Container -->
+  </body>
+
+     <!-- Start Footer -->
+   
+     <div class="footer">
+          <p>© 2020 Parul Kapoor - UT Austin Data Analytics Boot Camp</p>
+        </div>
+
+        
+    <!-- End Footer -->
+
+  </html>
