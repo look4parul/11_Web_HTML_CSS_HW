@@ -16,6 +16,13 @@ h3 {
      font-weight: bold;
 }
 
+h4 {
+     color: rgb(12, 173, 167);
+     background-color: white;
+     font-family: times new roman;
+     font-weight: bold;
+}
+
 img {
     padding-top: 10px;
     padding-right: 20px;

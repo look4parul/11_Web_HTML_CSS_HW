@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web-Visualization Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default p-0">
+
+    <div class="container-fluid">
+      <a class="navbar-brand p-2 ml-5 " href="index.html">Lattitude</a>
+      <ul class="nav nav-bar">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="latitude_temps.html">Max Temperature</a>
+            <a class="dropdown-item" href="latitude_hum.html">Humidity</a>
+            <a class="dropdown-item" href="latitude_cloud.html">Cloudiness</a>
+            <a class="dropdown-item" href="latitude_wind.html">Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- <nav class="navbar navbar-default"> -->
+    <!-- <div class="container-fluid"> -->
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <!-- <div class="navbar-header"> -->
+        <!-- <butto< n type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html">Latitude</a>
+      </div> --> 
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="latitude_temps.html">Max Temperature</a></li>
+              <li><a href="latitude_hum.html">Humidity</a></li>
+              <li><a href="latitude_cloud.html">Cloudiness</a></li>
+              <li><a href="latitude_wind.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a href="comparison.html">Comparison</a></li>
+          <li><a href="data.html">Data</a></li>
+         </ul>
+      </div>
+      <!- /.navbar-collapse -->
+      <!-- </div> -->
+      <!-- /.container-fluid -->
+      <!-- </nav> -->
+
+      <!-- Creates the Overall Grid -->
+      <div class="container sect">
+        <h1>Comparison: Latitude vs X</h1> <br>
+        <p>Click any plot to get an in-depth analysis. </p><br>
+        <hr>
+
+        <!-- First Row -->
+
+        <div class="row">
+          <div class="col">
+            <h4 align="center">vs. Max Temperature</h4>
+            <a href="lat_temps.html"><img src="Resources/assets/images/Fig1.png" alt="Max Temperature" width="100%" height="100%"></a>
+          </div>
+          <div class="col">
+            <h4 align="center">vs. Humidity</h4>
+            <a href="lat_wind.html"><img src="Resources/assets/images/Fig2.png" alt="Humidity" width="100%" height="100%"></a><br>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h4 align="center">vs. Cloudiness</h4>
+            <a href="lat_hum.html"><img src="Resources/assets/images/Fig3.png" alt="Cloudiness" width="100%" height="100%"></a><br><br><br>
+          </div>
+          <div class="col">
+            <h4 align="center">vs. Wind Speed</h4>
+            <a href="lat_cloud.html"><img src="Resources/assets/images/Fig4.png" alt="Wind Speed" width="100%" height="100%"></a><br>
+          </div>
+        </div>
+      </body>
+      </html>
+
+
+
+        <!-- <div class="col-md-6 pad top"> <br>
+
+          <div class="pull-left">
+            <h3>vs. Max Temperature</h3>
+            <a target="_blank" href="Resources/assets/images/Fig1.png"><img src="assets/images/Fig1.png" alt="Latitude vs. Max Temperature" width="100%" height="100%"></a>
+          </div>
+
+        </div>
+
+        <div class="col-md-6 pad top"> <br>
+
+          <div class="pull-left"> -->
+            <!-- <h3> vs. Humidity</h3>
+            <a target="_blank" href="Resources/assets/images/Fig2.png"><img src="assets/images/Fig2.png" alt="Latitude vs. Humidity" width="100%" height="100%"></a>
+          </div>
+
+        </div>
+
+    </div>
+
+    <div class="row2">
+
+        <div class="col-md-6 pad top"> <br>
+
+          <div class="pull-left">
+            <h3>vs. Cloudiness</h3>
+            <a target="_blank" href="Resources/assets/images/Fig3.png"><img src="assets/images/Fig3.png" alt="Latitude vs. Cloudiness" width="100%" height="100%"></a>
+          </div>
+
+        </div>
+
+        <div class="col-md-6 pad top"> <br>
+
+          <div class="pull-left">
+            <h3> vs. Wind Speed</h3>
+            <a target="_blank" href="Resources/assets/images/Fig4.png"><img src="assets/images/Fig4.png" alt="Latitude vs. Wind Speed" width="100%" height="100%"></a>
+          </div>
+
+        </div> -->
+
+
+    
+      <!-- Start Footer -->
+   
+ 
+        <div class="footer">
+          <p>© 2020 Parul Kapoor - UT Austin Data Analytics Boot Camp</p>
+        </div>
+
+        
+    <!-- End Footer -->
+    </body>    
+
+    </html>
