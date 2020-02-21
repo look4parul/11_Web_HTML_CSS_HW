@@ -11,9 +11,40 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
+
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 </head>
 
 <body>
+
+
+
+  <nav class="navbar navbar-expand-md navbar-default">
+  <a class="navbar-brand" href="#">Lattitude</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <ul class="navbar-nav .justify-content-end">
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop" href="#">Plots</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="latitude_temps.html">Max Temperature</a>
+            <a class="dropdown-item" href="latitude_hum.html">Humidity</a>
+            <a class="dropdown-item" href="latitude_cloud.html">Cloudiness</a>
+            <a class="dropdown-item" href="latitude_wind.html">Wind Speed</a>
+          </div>
+        </li>
+  
+    <li class="nav-item"> <a class="nav-link" href="comparison.html">Comparison</a></li>
+        <li class="nav-item"><a class="nav-link" href="data.html">Data</a></li>  
+    </ul>
+  </div>  
+</nav>
   <!-- 
   <nav class="navbar  navbar-default">
     <div class="container-fluid">
@@ -64,12 +95,44 @@
 </ul> -->
 
 
+<!-- <nav class="navbar navbar-expand-md">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Lattitude</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="latitude_temps.html">Max Temperature</a></li>
+            <li><a class="dropdown-item" href="latitude_hum.html">Humidity</a></li>
+            <li><a class="dropdown-item" href="latitude_cloud.html">Cloudiness</a></li>
+            <li><a class="dropdown-item" href="latitude_wind.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        <li> <a class="nav-link" href="comparison.html">Comparison</a></li>
+        <li><a class="nav-link" href="data.html">Data</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+
+<!--
+
 
 
 <nav class="navbar navbar-default p-0">
 
+
   <div class="container-fluid">
     <a class="navbar-brand p-2 ml-5 " href="index.html">Lattitude</a>
+    <div class=" navbar-collapse" id="myNavbar">
     <ul class="nav nav-bar">
       
       <li class="nav-item dropdown">
@@ -89,7 +152,9 @@
       </li>
     </ul>
   </div>
+  </div>
 </nav>
+-->
 
 <!-- 
   <ul class="nav navbar-nav navbar-right">
@@ -119,7 +184,7 @@
 
           <div class="row">
 
-            <div class="col-8 sect mr-4 ml-n5"> <br>
+            <div class="col-sm-7 sect mr-2 ml-2 "> <br>
               <h3>Summary: Latitude vs. X</h3> <hr>
               <div class="float-left">
                 <img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" width="200" height="175">
@@ -140,7 +205,7 @@
 
             </div>
 
-            <div class="col-4 sect mr-4 "> <br>
+            <div class="col-sm-4 sect mr-2 ml-2"> <br>
               <h3>Visualizations</h3> <hr/>
               <div class="row">
 
@@ -171,19 +236,16 @@
         </div>
         
 
-        <!-- Start Footer -->
         
         
-        <div class="footer">
-          <p>© 2020 Parul Kapoor - UT Austin Data Analytics Boot Camp</p>
-        </div>
-
         
-        <!-- End Footer -->
+        
+<!-- Start Footer -->
+  <!-- <div class="footer">© 2020 Parul Kapoor - UT Austin Data Analytics Boot Camp</div> -->
+  <!-- End Footer -->
+  <footer class="pfooter">© 2020 Parul Kapoor - UT Austin Data Analytics Boot Camp</footer>
 
-
-
-      </body>
+</body>
 
       
 
