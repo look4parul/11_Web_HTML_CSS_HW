@@ -73,11 +73,7 @@ p {
     /*display: block;*/
     overflow: auto;
     border-collapse: collapse;
-    /*border-spacing: 0;*/
     width: 100%;
-    /*border: 1px solid #ddd*/
-    /*max-width: 400px;*/
-    /*display:table-row;*/
     overflow-y: scroll;
 }
 
@@ -91,34 +87,10 @@ p {
   background-color: #444444;
   color: white;
   border-top: 5px solid rgb(20, 180, 164);
-  /*overflow-x: auto; */
-  /*overflow-y: auto;*/
-
-    
-    /*right: 0;
-    bottom: 0;
-    left: 0;*/
-    /*padding: 1rem;*/
-    /*background-color: #efefef;*/
-    text-align: center;*/
-    /*position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 70px;
-    width: 100%;
-    background-color: rgb(12, 173, 167) ;
-    color: white;
-    font-family: times new roman;
-    text-align: center;
-    justify-content: center;
-    */
-    /*position: absolute;*/
+  text-align: center;*/
 }
                                
-  
-
-/* Here we define a navbar style that will ONLY be applied at screen sizes below 480 pixels */
-@media (max-width: 480px) {
+  @media (max-width: 480px) {
   .navbar {
     background-color: rgb(12, 173, 167);
 }
