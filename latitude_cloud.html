@@ -13,11 +13,9 @@
 
 <body>
   <nav class="navbar navbar-default p-0">
-
     <div class="container-fluid">
       <a class="navbar-brand p-2 ml-5 " href="index.html">Lattitude</a>
       <ul class="nav nav-bar">
-
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
           <div class="dropdown-menu">
@@ -38,51 +36,41 @@
   </nav>
   <!-- Creates the Overall Grid -->
   <div class="container">
-
     <div class="row">
-      <div class="col-7 sect mr-4 ml-n5"> <br>
+      <div class="col-sm-7 sect mr-4 ml-n5"> <br>
         <h3>Cloudiness</h3> <hr>
-        <!-- <div class="float-left"> -->
-          <div>
-            <img src="Resources/assets/images/Fig3.png" alt="Cloudiness" width="100%" height="auto" class="img-responsive">
-            
-            <p>The amount of cloud cover at various levels (low, middle and high) can be estimated from satellite data.</p>
-            <p>Cloudiness can be calculated by counting the number of cloudy pixels on the satellite image, and this can be done for a large sample, to obtain climatologically meaningful estimates.Latitude has no direct affect on the cloudiness directly which means Cloudiness does not show a strong correlation to latitude.Cloudiness is more directly related to temperatures,,which we can have more concluded results if we were to plot this against temperatures rather than against Latitude.</p><br><br><br><br>
+        <div>
+          <img src="Resources/assets/images/Fig3.png" alt="Cloudiness" width="100%" height="auto" class="img-responsive">
+
+          <p>Latitude has no direct affect on the cloudiness directly which means Cloudiness does not show a strong correlation to latitude.Cloudiness is more directly related to temperatures,which can be cpncluded if we were to plot this against temperatures rather than against Latitude.</p><br><br><br><br>
+        </div>
+      </div>
+      <div class="col-5 sect mr-4"> <br>
+        <h3>Visualizations</h3> <hr/>
+        <div class="row">
+          <div class="col">
+            <a href="latitude_temps.html"><img src="Resources/assets/images/Fig1.png" alt="Max Temperature" width="100%" height="100%"></a><br><br><br>
+          </div>
+          <div class="col">
+            <a href="latitude_hum.html"><img src="Resources/assets/images/Fig2.png" alt="Humidity" width="100%" height="100%"></a><br><br><br>
           </div>
         </div>
-        <div class="col-5 sect mr-4"> <br>
-          <h3>Visualizations</h3> <hr/>
-          <div class="row">
-            <div class="col">
-              <a href="latitude_temps.html"><img src="Resources/assets/images/Fig1.png" alt="Max Temperature" width="100%" height="100%"></a><br><br><br>
-            </div>
-            <div class="col">
-              <a href="latitude_wind.html"><img src="Resources/assets/images/Fig2.png" alt="Humidity" width="100%" height="100%"></a><br><br><br>
-            </div>
-          </div>
 
-          <div class="row">
-            <div class="col">
-              <a href="latitude_hum.html"><img src="Resources/assets/images/Fig3.png" alt="Cloudiness" width="100%" height="100%"></a><br><br><br>
-            </div>
-            <div class="col">
-              <a href="latitude_cloud.html"><img src="Resources/assets/images/Fig4.png" alt="Wind Speed" width="100%" height="100%"></a><br>
-            </div>
+        <div class="row">
+          <div class="col">
+            <a href="latitude_cloud.html"><img src="Resources/assets/images/Fig3.png" alt="Cloudiness" width="100%" height="100%"></a><br><br><br>
+          </div>
+          <div class="col">
+            <a href="latitude_wind.html"><img src="Resources/assets/images/Fig4.png" alt="Wind Speed" width="100%" height="100%"></a><br>
           </div>
         </div>
       </div>
-    </div> <!-- Container -->
-     <footer class="pfooter">© 2020 Parul Kapoor - UT Austin Data Analytics Boot Camp</footer>
+    </div>
+  </div> <!-- Container -->
+  
+  <!-- Start Footer -->
+  <footer class="pfooter">© 2020 Parul Kapoor - UT Austin Data Analytics Boot Camp</footer>
+  <!-- End Footer -->
 
   </body>
-
-  <!-- Start Footer -->
-<!-- 
-  <div class="footer">
-    <p>© 2020 Parul Kapoor - UT Austin Data Analytics Boot Camp</p>
-  </div>
--->
-
-<!-- End Footer -->
-
-</html>
+  </html>

@@ -5,33 +5,19 @@
   <meta charset="UTF-8">
   <title>Web-Visualization Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
-
-
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 </head>
 
 <body>
-
-
-
-  <nav class="navbar navbar-expand-md navbar-default">
-  <a class="navbar-brand" href="#">Lattitude</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-    <ul class="navbar-nav .justify-content-end">
-        
+  <nav class="navbar navbar-default p-0">
+    <div class="container-fluid">
+      <a class="navbar-brand p-2 ml-5 " href="index.html">Lattitude</a>
+      <ul class="nav nav-bar">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop" href="#">Plots</a>
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="latitude_temps.html">Max Temperature</a>
             <a class="dropdown-item" href="latitude_hum.html">Humidity</a>
@@ -39,219 +25,65 @@
             <a class="dropdown-item" href="latitude_wind.html">Wind Speed</a>
           </div>
         </li>
-  
-    <li class="nav-item"> <a class="nav-link" href="comparison.html">Comparison</a></li>
-        <li class="nav-item"><a class="nav-link" href="data.html">Data</a></li>  
-    </ul>
-  </div>  
-</nav>
-  <!-- 
-  <nav class="navbar  navbar-default">
-    <div class="container-fluid">
-
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">Latitude</a>
-      </div>
-      <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plots 
-              <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="latitude_temps.html">Max Temperature</a></li>
-              <li><a href="latitude_hum.html">Humidity</a></li>
-              <li><a href="latitude_cloud.html">Cloudiness</a></li>
-              <li><a href="latitude_wind.html">Wind Speed</a></li>
-            </ul>
-          </li>
-          <li><a href="comparison.html">Comparison</a></li>
-          <li><a href="data.html">Data</a></li>
-          
-        </ul>
-    </div>
-  </nav>
--->
-
-
-<!-- <ul class="nav nav-pills">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Separated link</a>
-    </div>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </li>
-</ul> -->
-
-
-<!-- <nav class="navbar navbar-expand-md">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Lattitude</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="latitude_temps.html">Max Temperature</a></li>
-            <li><a class="dropdown-item" href="latitude_hum.html">Humidity</a></li>
-            <li><a class="dropdown-item" href="latitude_cloud.html">Cloudiness</a></li>
-            <li><a class="dropdown-item" href="latitude_wind.html">Wind Speed</a></li>
-          </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="comparison.html">Comparison</a>
         </li>
-        <li> <a class="nav-link" href="comparison.html">Comparison</a></li>
-        <li><a class="nav-link" href="data.html">Data</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
       </ul>
     </div>
-  </div>
-</nav> -->
-
-<!--
-
-
-
-<nav class="navbar navbar-default p-0">
-
-
-  <div class="container-fluid">
-    <a class="navbar-brand p-2 ml-5 " href="index.html">Lattitude</a>
-    <div class=" navbar-collapse" id="myNavbar">
-    <ul class="nav nav-bar">
-      
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="latitude_temps.html">Max Temperature</a>
-          <a class="dropdown-item" href="latitude_hum.html">Humidity</a>
-          <a class="dropdown-item" href="latitude_cloud.html">Cloudiness</a>
-          <a class="dropdown-item" href="latitude_wind.html">Wind Speed</a>
+  </nav>
+  
+  <!-- Creates the Overall Grid -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7 sect mr-2 ml-2 "> <br>
+        <h3>Summary: Latitude vs. X</h3> <hr>
+        <div class="float-left">
+          <img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" width="200" height="175">
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="comparison.html">Comparison</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="data.html">Data</a>
-      </li>
-    </ul>
-  </div>
-  </div>
-</nav>
--->
 
-<!-- 
-  <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plots 
-              <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="latitude_temps.html">Max Temperature</a></li>
-              <li><a href="latitude_hum.html">Humidity</a></li>
-              <li><a href="latitude_cloud.html">Cloudiness</a></li>
-              <li><a href="latitude_wind.html">Wind Speed</a></li>
-            </ul>
-          </li>
-          <li><a href="comparison.html">Comparison</a></li>
-          <li><a href="data.html">Data</a></li>
-          
-        </ul> -->
-        
+        <div class="text-left">
+          <p> The purpose of this project was to analyze how weather changes as you get closer to the
+            equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap
+          API to assemble a dataset of over 500 cities. </p> <br>
+          <p> After assembling the dataset, Matplotlib was used to plot various aspects of weather
+            vs. latitude. Factors analyzed included: temperature, cloudiness, wind-speed and humidity.  Additionally, Matplotlib was used to plot aspects of the weather using longitude
+            vs. latitude. The intent was to visualize a world map using weather plots. This site
+            provides the source data and visualizations created as part of the analysis,
+          as well as explanations and descriptions of any trends and correlations witnessed. </p>
+          <br><br><br><br>
+        </div>
 
+      </div>
 
-
-
-
-        <!-- Creates the Overall Grid -->
-        
-        <div class="container">
-
-          <div class="row">
-
-            <div class="col-sm-7 sect mr-2 ml-2 "> <br>
-              <h3>Summary: Latitude vs. X</h3> <hr>
-              <div class="float-left">
-                <img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" width="200" height="175">
-              </div>
-
-              <div class="text-left">
-                <p> The purpose of this project was to analyze how weather changes as you get closer to the
-                  equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap
-                API to assemble a dataset of over 500 cities. </p> <br>
-                <p> After assembling the dataset, Matplotlib was used to plot various aspects of weather
-                  vs. latitude. Factors analyzed included: temperature, cloudiness, wind-speed and humidity.  Additionally, Matplotlib was used to plot aspects of the weather using longitude
-                  vs. latitude. The intent was to visualize a world map using weather plots. This site
-                  provides the source data and visualizations created as part of the analysis,
-                as well as explanations and descriptions of any trends and correlations witnessed. </p>
-                <br><br><br><br>
-              </div>
-
-
-            </div>
-
-            <div class="col-sm-4 sect mr-2 ml-2"> <br>
-              <h3>Visualizations</h3> <hr/>
-              <div class="row">
-
-                <div class="col">
-                  <a href="latitude_temps.html"><img src="Resources/assets/images/Fig1.png" alt="Max Temperature" width="100%" height="100%"></a><br><br><br>
-                </div>
-                <div class="col">
-                  <a href="latitude_wind.html"><img src="Resources/assets/images/Fig2.png" alt="Humidity" width="100%" height="100%"></a><br><br><br>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col">
-                  <a href="latitude_hum.html"><img src="Resources/assets/images/Fig3.png" alt="Cloudiness" width="100%" height="100%"></a><br><br><br>
-                </div>
-                <div class="col">
-                  <a href="latitude_cloud.html"><img src="Resources/assets/images/Fig4.png" alt="Wind Speed" width="100%" height="100%"></a><br>
-                </div>
-              </div>
-            </div>
-
-            
-
-
-
+      <div class="col-sm-4 sect mr-2 ml-2"> <br>
+        <h3>Visualizations</h3> <hr/>
+        <div class="row">
+          <div class="col">
+            <a href="latitude_temps.html"><img src="Resources/assets/images/Fig1.png" alt="Max Temperature" width="100%" height="100%"></a><br><br><br>
           </div>
-
+          <div class="col">
+            <a href="latitude_wind.html"><img src="Resources/assets/images/Fig2.png" alt="Humidity" width="100%" height="100%"></a><br><br><br>
+          </div>
         </div>
-        
 
-        
-        
-        
-        
-<!-- Start Footer -->
-  <!-- <div class="footer">© 2020 Parul Kapoor - UT Austin Data Analytics Boot Camp</div> -->
-  <!-- End Footer -->
+        <div class="row">
+          <div class="col">
+            <a href="latitude_hum.html"><img src="Resources/assets/images/Fig3.png" alt="Cloudiness" width="100%" height="100%"></a><br><br><br>
+          </div>
+          <div class="col">
+            <a href="latitude_cloud.html"><img src="Resources/assets/images/Fig4.png" alt="Wind Speed" width="100%" height="100%"></a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Start Footer -->
   <footer class="pfooter">© 2020 Parul Kapoor - UT Austin Data Analytics Boot Camp</footer>
-
+  <!-- End Footer -->
 </body>
-
-      
-
-
-
-
-
-      </html>
+</html>
       
